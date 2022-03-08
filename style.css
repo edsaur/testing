@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  background: pink;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#content {
+  margin: 100px auto;
+  text-align: center;
+}
+
+button {
+  border: 2px solid khaki;
+  transition: background 0.5s;
+}
+
+button:hover {
+  color: #140066;
+  background: #f75a4f;
+}
