@@ -24,16 +24,14 @@ let text = [
 
 let counter = 0;
 let h1 = document.querySelector(".textOne")
-let inst = setInterval(message, 3000);
+
 // have a function that will take button to automatically play music and present text
 
 
 function play() {
   button.addEventListener("click", function() {
-      inst
       audio.play();
-
-     
+      setInterval(message, 3000);
   })
 }
 
